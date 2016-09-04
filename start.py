@@ -51,7 +51,7 @@ if __name__ == '__main__':
               ' {}!'.format(len(open_activities), args.activity))
 
     # Start the activity
-    # TODO: Make sure activity is safe, reasonable, etc.
+    # TODO: Make sure the activity name is safe, clean, etc.
     cur.execute('INSERT INTO activities VALUES (?, strftime("%s", "now"),'
                 'null)', (args.activity,))
     conn.commit()
