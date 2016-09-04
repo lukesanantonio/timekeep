@@ -15,7 +15,7 @@ cmd.add_argument('activity', help='Activity to begin')
 # programming on a specific project, but maintain the fact that I am nonetheless
 # programming. At some later point I can go back and see how much time I've
 # spent programming and how much of that was spent on particular projects. Maybe
-# a kind of "inheritance isn't a good solution." Maybe each thing can have tags
+# a kind of "inheritance" isn't a good solution. Maybe each thing can have tags
 # and the tags would be the more general thing. Like I would have an activity
 # for each project and a tag for Programming.
 
